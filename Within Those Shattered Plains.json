@@ -281,7 +281,7 @@
 					"type": "entries",
 					"name": "Gift of Knowledge",
 					"entries": [
-						"You have proficiency in one of the following skills of your choice: {@skill Arcana}, {@skill History}, {@skill Nature}, or {@skill Religion}. If you are already proficient in your chosen skill you can instead choose to gain expertise, which means your proficiency bonus is doubled for any ability check you make with it."
+						"You have proficiency in one of the following skills of your choice: {@skill Arcana}, {@skill History}, {@skill Nature}, or {@skill Religion}. If you are already proficient in your chosen skill you instead have expertise, which means your proficiency bonus is doubled for any ability check you make with it."
 					]
 				}
 			]
@@ -481,6 +481,69 @@
 			],
 			"traitTags": [
 				"Skill Proficiency"
+			]
+		},
+		{
+			"name": "Tiefling",
+			"source": "WithinThoseShatteredPlains",
+			"lineage": "VRGR",
+			"size": ["S", "M"],
+			"speed": 30,
+			"darkvision": 60,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Otherworldly Presence",
+					"entries": [
+						"You know the {@spell Thaumaturgy} cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability."
+					]
+				}
+			],
+			"subraces": [
+				{
+					"name": "Infernal",
+					"alias": [
+						"Devil"
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Infernal Resistance",
+							"entries": [
+								"You have resistance to fire damage."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Infernal Legacy",
+							"entries": [
+								"You know the {@spell Fire Bolt} cantrip. Starting at 3rd level, you can cast the {@spell Hellish Rebuke} spell once. Starting at 5th level, you gain the ability to cast the {@spell Darkness} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
+							]
+						}
+					]
+				},
+				{
+					"name": "Abyssal",
+					"alias": [
+						"Demon"
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Abyssal Resistance",
+							"entries": [
+								"You have advantage on saving throws against poison, and you have resistance against poison damage."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Abyssal Legacy",
+							"entries": [
+								"You know the {@spell Poison Spray} cantrip. Starting at 3rd level, you can cast the {@spell Ray of Sickness} spell once. Starting at 5th level, you gain the ability to cast the {@spell Hold Person} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
+							]
+						}
+					]
+				}
 			]
 		}
 	],
