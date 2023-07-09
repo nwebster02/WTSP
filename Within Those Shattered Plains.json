@@ -5,7 +5,7 @@
 				"json": "WithinThoseShatteredPlains",
 				"abbreviation": "WTSP",
 				"full": "Within Those Shattered Plains",
-				"url": "",
+				"url": "https://raw.githubusercontent.com/nwebster02/WTSP/main/Within%20Those%20Shattered%20Plains.json",
 				"authors": [
 					"Nate Webster"
 				],
@@ -482,6 +482,64 @@
 			"traitTags": [
 				"Skill Proficiency"
 			]
+		}
+	],
+	"item": [
+		{
+			"name": "Drake-Shot Pistol",
+			"source": "WithinThoseShatteredPlains",
+			"rarity": "none",
+			"type": "R",
+			"weaponCategory": "simple",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"property": [
+				"A",
+				"L"
+			],
+			"range": "30/120"
+		},
+		{
+			"name": "Wyvern-Shot Pistol",
+			"source": "WithinThoseShatteredPlains",
+			"rarity": "none",
+			"type": "R",
+			"weaponCategory": "martial",
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"property": [
+				"A"
+			],
+			"range": "30/120"
+		},
+		{
+			"name": "Light Dragon Musket",
+			"source": "WithinThoseShatteredPlains",
+			"rarity": "none",
+			"type": "R",
+			"weaponCategory": "martial",
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"property": [
+				"A",
+				"2H"
+			],
+			"range": "100/400"
+		},
+				{
+			"name": "Heavy Dragon Musket",
+			"source": "WithinThoseShatteredPlains",
+			"rarity": "none",
+			"type": "R",
+			"weaponCategory": "martial",
+			"dmg1": "1d12",
+			"dmgType": "P",
+			"property": [
+				"A",
+				"2H",
+				"H"
+			],
+			"range": "150/600"
 		}
 	],
 	"monster": [
