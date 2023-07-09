@@ -1,0 +1,679 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "WithinThoseShatteredPlains",
+				"abbreviation": "WTSP",
+				"full": "Within Those Shattered Plains",
+				"url": "",
+				"authors": [
+					"Nate Webster"
+				],
+				"convertedBy": [
+					"Nate Webster"
+				],
+				"color": "#86feff"
+			}
+		]
+	},
+	"race": [
+		{
+			"name": "Bugbear",
+			"source": "WithinThoseShatteredPlains",
+			"lineage": "VRGR",
+			"size": ["M"],
+			"speed": 35,
+			"darkvision": 60,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Gifted Wanderer",
+					"entries": [
+						"You gain proficiency with one tool, instrument, gaming set, or vehicle of your choice. In addition, you gain fluency in one language of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sneaky",
+					"entries": [
+						"You have proficiency in the {@skill Stealth} skill. In addition, without squeezing, you can move through and stop in a space large enough for a Small creature."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Surprise Attack",
+					"entries": [
+						"If you hit a creature with an attack roll, the creature takes an extra 2d6 damage if it hasn't taken a turn yet in the current combat."
+					]
+				}
+			],
+			"skillProficiencies": [
+				{
+					"stealth": true
+				}
+			],
+			"traitTags": [
+				"Powerful Build",
+				"Skill Proficiency",
+				"Tool Proficiency"
+			]
+		},
+		{
+			"name": "Elf",
+			"source": "WithinThoseShatteredPlains",
+			"lineage": "VRGR",
+			"size": ["M"],
+			"speed": 30,
+			"darkvision": 60,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Keen Senses",
+					"entries": [
+						"You have proficiency in the Perception skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sylvan Ancestry",
+					"entries": [
+						"You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Trance",
+					"entries": [
+						"You don't need to sleep. Instead, you can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness."
+					]
+				}
+			],
+			"traitTags": [
+				"Improved Resting",
+				"Skill Proficiency"
+			],
+			"subraces": [
+				{
+					"name": "Sun",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Blessings of the Sun",
+							"entries": [
+								"You know the {@spell Light} cantrip. Starting at 3rd level, you can cast the {@spell Color Spray} spell once. Starting at 5th level, you gain the ability to cast the {@spell Scorching Ray} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
+							]
+						}
+					],
+					"traitTags": [
+						"Spellcasting"
+					]
+				},
+				{
+					"name": "Moon",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Blessings of the Moon",
+							"entries": [
+								"You know the {@spell Minor Illusion} cantrip. Starting at 3rd level, you can cast the {@spell Sleep} spell once. Starting at 5th level, you gain the ability to cast the {@spell Moonbeam} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
+							]
+						}
+					],
+					"traitTags": [
+						"Spellcasting"
+					]
+				},
+				{
+					"name": "Drow",
+					"alias": [
+    					"Dark",
+						"Star"
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Blessings of the Dark",
+							"entries": [
+								"You know the {@spell Dancing Lights} cantrip. Starting at 3rd level, you can cast the {@spell Faerie Fire} spell once. Starting at 5th level, you gain the ability to cast the {@spell Darkness} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
+							]
+						}
+					],
+					"overwrite": {
+						"darkvision": 120
+					},
+					"traitTags": [
+						"Spellcasting"
+					]
+				},
+				{
+					"name": "Feywild",
+					"alias": [
+						"Fey",
+    					"Eladrin"
+					]
+				},
+				{
+					"name": "Shadowfell",
+					"alias": [
+    					"Shadow",
+						"Shadar-Kai"
+					]
+				}
+			]
+		},
+		{
+			"name": "Dwarf",
+			"source": "WithinThoseShatteredPlains",
+			"lineage": "VRGR",
+			"size": ["M"],
+			"speed": 30,
+			"darkvision": 60,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Dwarven Resilience",
+					"entries": [
+						"You have advantage on saving throws against poison, and you have resistance against poison damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dwarven Toughness",
+					"entries": [
+						"Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Forgewise",
+					"entries": [
+						"You gain proficiency with two of the following artisan's tools of your choice: Jeweler's Tools, Mason's Tools, Smith's Tools, or Tinker's Tools."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Stonecunning",
+					"entries": [
+						"As a bonus action, you gain tremorsense with a range of 60 feet for 10 minutes. You must be on a stone surface or touching such a surface to use this tremorsense. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+					]
+				}
+			],
+			"traitTags": [
+				"Damage Resistance",
+				"Tool Proficiency"
+			]
+		},
+		{
+			"name": "Firbolg",
+			"source": "WithinThoseShatteredPlains",
+			"lineage": "VRGR",
+			"size": ["M"],
+			"speed": 30,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speech of Beast and Leaf",
+					"entries": [
+						"You have the ability to communicate in a limited manner with Beasts, Plants, and vegetation. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all Charisma checks you make to influence them."
+					]
+				}
+			],
+			"traitTags": [
+				"Powerful Build"
+			],
+			"subraces": [
+				{
+					"name": "Forest",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Hidden Step",
+							"entries": [
+								"As a bonus action, you can magically turn invisible until the start of your next turn or until you attack, make a damage roll, or force someone to make a saving throw. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+							]
+						}
+					]
+				},
+				{
+					"name": "Plains",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Stampeding Step",
+							"entries": [
+								"You can take the Dash action as a bonus action. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. Whenever you use this trait if you move at least 20 feet straight toward a creature and then hit it with a melee weapon attack on the same turn, that target must succeed on a Strength saving throw against a DC of 8 + your proficiency bonus + your Strength modifier or be knocked {@condition prone}."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Gnome",
+			"source": "WithinThoseShatteredPlains",
+			"lineage": "VRGR",
+			"size": ["S"],
+			"speed": 30,
+			"darkvision": 60,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Gnomish Magic Resistance",
+					"entries": [
+						"You have advantage on all Wisdom, Intelligence, and Charisma saves against spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Gift of Knowledge",
+					"entries": [
+						"You have proficiency in one of the following skills of your choice: {@skill Arcana}, {@skill History}, {@skill Nature}, or {@skill Religion}. If you are already proficient in your chosen skill you can instead choose to gain expertise, which means your proficiency bonus is doubled for any ability check you make with it."
+					]
+				}
+			]
+		},
+		{
+			"name": "Goblin",
+			"source": "WithinThoseShatteredPlains",
+			"lineage": "VRGR",
+			"size": ["S"],
+			"speed": 30,
+			"darkvision": 60,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Fury of the Small",
+					"entries": [
+						"When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your proficiency bonus. You can use this trait a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest, and you can use it no more than once per turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Gifted Wanderer",
+					"entries": [
+						"You gain proficiency with one tool, instrument, gaming set, or vehicle of your choice. In addition, you gain fluency in one language of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Nimble Escape",
+					"entries": [
+						"You can take the Disengage or Hide action as a bonus action on each of your turns."
+					]
+				}
+			],
+			"traitTags": [
+				"Tool Proficiency"
+			]
+		},
+		{
+			"name": "Goliath",
+			"source": "WithinThoseShatteredPlains",
+			"lineage": "VRGR",
+			"size": ["M"],
+			"speed": 35,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Natural Athlete",
+					"entries": [
+						"You have proficiency in the {@skill Athletics} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mountain Born",
+					"entries": [
+						"You have resistance to cold damage. You also naturally acclimate to high altitudes, even if you've never been to one. This includes elevations above 20,000 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Stone's Endurance",
+					"entries": [
+						"When you take damage, you can use your reaction to roll a {@dice d12}. Add your Constitution modifier to the number rolled and reduce the damage by that total. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+					]
+				}
+			],
+			"skillProficiencies": [
+				{
+					"athletics": true
+				}
+			],
+			"traitTags": [
+				"Damage Resistance",
+				"Powerful Build"
+			],
+			"resist": [
+				"cold"
+			]
+		},
+		{
+			"name": "Halfling",
+			"source": "WithinThoseShatteredPlains",
+			"lineage": "VRGR",
+			"size": ["S"],
+			"speed": 30,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Brave",
+					"entries": [
+						"You have advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Halfling Nimbleness",
+					"entries": [
+						"You can move through the space of any creature that is of a size larger than yours."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Innate Luck",
+					"entries": [
+						"When you make an ability check, attack, or saving throw you can choose to roll with advantage. You can use this trait a number of times equal to half your proficiency bonus (rounded down), and you regain all expended uses when you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Naturally Stealthy",
+					"entries": [
+						"You have proficiency in the {@skill Stealth} skill. In addition, you can attempt to hide even when you are only obscured by a creature that is at least one size larger than you."
+					]
+				}
+			],
+			"skillProficiencies": [
+				{
+					"stealth": true
+				}
+			],
+			"traitTags": [
+				"Skill Proficiency"
+			]
+		},
+		{
+			"name": "Hobgoblin",
+			"source": "WithinThoseShatteredPlains",
+			"lineage": "VRGR",
+			"size": ["M"],
+			"speed": 30,
+			"darkvision": 60,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Gifted Wanderer",
+					"entries": [
+						"You gain proficiency with one tool, instrument, gaming set, or vehicle of your choice. In addition, you gain fluency in one language of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hobgoblin Magic",
+					"entries": [
+						"You know the {@spell Prestidigitation} cantrip. Starting at 3rd level, you can cast the {@spell Absorb Elements|XGE} spell once. Starting at 5th level, you gain the ability to cast the {@spell Enhance Ability} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hobgoblin Magic Resistance",
+					"entries": [
+						"You have advantage on all Strength, Dexterity, and Constitution saves against spells."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance",
+				"Spellcasting",
+				"Tool Proficiency"
+			]
+		},
+		{
+			"name": "Kenku",
+			"source": "WithinThoseShatteredPlains",
+			"lineage": "VRGR",
+			"size": ["S", "M"],
+			"speed": 30,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Expert Duplication",
+					"entries": [
+						"When you copy writing or craftwork produced by yourself or someone else, you have advantage on any ability checks you make to produce an exact duplicate."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Kenku Recall",
+					"entries": [
+						"You have proficiency in two skills of your choice. Moreover, when you make an ability check using any skill in which you have proficiency, you can give yourself advantage before rolling. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mimicry",
+					"entries": [
+						"You can accurately mimic sounds you have heard, including voices. A creature that hears the sounds you make can tell they are imitations only with a successful Wisdom ({@skill Insight}) check against a DC of 8 + your Charisma ({@skill Deception}) modifier."
+					]
+				}
+			],
+			"traitTags": [
+				"Skill Proficiency"
+			]
+		}
+	],
+	"monster": [
+		{
+			"name": "Alpine Battle Steeder",
+			"source": "WithinThoseShatteredPlains",
+			"size": [
+				"L"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 30,
+				"formula": "4d10 + 8"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 15,
+			"dex": 16,
+			"con": 14,
+			"int": 2,
+			"wis": 10,
+			"cha": 3,
+			"skill": {
+				"stealth": "+5",
+				"perception": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Extraordinary Leap",
+					"entries": [
+						"The distance of the steeder's long jumps is tripled; every foot of its walking speed that it spends on the jump allows it to move 3 feet."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The steeder can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage plus 9 ({@damage 2d8}) poison damage."
+					]
+				},
+				{
+					"name": "Sticky Leg",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one Medium or smaller creature. {@h}The target is stuck to the steeder's leg and {@condition grappled} (escape {@dc 12}). The steeder can have only one creature {@condition grappled} at a time."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"mountain"
+			],
+			"traitTags": [
+				"Spider Climb"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled"
+			],
+			"tokenUrl": "https://5e.tools/img/MPMM/Male Steeder.png",
+			"shortName": "steeder",
+			"resist": [
+				"cold"
+			]
+		},
+		{
+			"name": "Alpine Draft Steeder",
+			"source": "WithinThoseShatteredPlains",
+			"size": [
+				"M"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 13,
+				"formula": "2d8 + 4"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 15,
+			"dex": 12,
+			"con": 14,
+			"int": 2,
+			"wis": 10,
+			"cha": 3,
+			"skill": {
+				"stealth": "+3",
+				"perception": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Extraordinary Leap",
+					"entries": [
+						"The distance of the steeder's long jumps is tripled; every foot of its walking speed that it spends on the jump allows it to jump 3 feet."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The steeder can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage plus 4 ({@damage 1d8}) poison damage."
+					]
+				},
+				{
+					"name": "Sticky Leg",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one Small or Tiny creature. {@h}The target is stuck to the steeder's leg and {@condition grappled} (escape {@dc 12}). The steeder can have only one creature {@condition grappled} at a time."
+					]
+				}
+			],
+			"traitTags": [
+				"Spider Climb"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled"
+			],
+			"tokenUrl": "https://5e.tools/img/MPMM/Male Steeder.png",
+			"shortName": "steeder",
+			"resist": [
+				"cold"
+			],
+			"environment": [
+				"arctic",
+				"mountain"
+			]
+		}
+	]
+}
