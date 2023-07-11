@@ -36,7 +36,7 @@
 					"type": "entries",
 					"name": "Celestial Legacy",
 					"entries": [
-						"You have resistance to necrotic damage and radiant damage. You also know the {@spell word of radiance|XGE} cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability."
+						"You have resistance to necrotic damage and radiant damage. You also know the {@spell word of radiance|XGE} cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell."
 					]
 				},
 				{
@@ -159,6 +159,7 @@
 					"alias": [
 						"Duergar"
 					],
+					"darkvision": 120,
 					"entries": [
 						{
 							"type": "entries",
@@ -175,6 +176,13 @@
 							"name": "Mental Fortitude",
 							"entries": [
 								"You have advantage on saving throws you make to avoid or end the {@condition charmed} or {@condition stunned} condition on yourself."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "",
+							"entries": [
+								"TODO"
 							]
 						}
 					]
@@ -233,7 +241,7 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Blessings of the Sun",
+							"name": "Blessing of the Sun",
 							"entries": [
 								"You know the {@spell light} cantrip. Starting at 3rd level, you can cast the {@spell color spray} spell once. Starting at 5th level, you gain the ability to cast the {@spell scorching ray} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
 							]
@@ -248,7 +256,7 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Blessings of the Moon",
+							"name": "Blessing of the Moon",
 							"entries": [
 								"You know the {@spell minor illusion} cantrip. Starting at 3rd level, you can cast the {@spell sleep} spell once. Starting at 5th level, you gain the ability to cast the {@spell moonbeam} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
 							]
@@ -268,7 +276,7 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Blessings of the Dark",
+							"name": "Blessing of the Dark",
 							"entries": [
 								"You know the {@spell dancing lights} cantrip. Starting at 3rd level, you can cast the {@spell faerie fire} spell once. Starting at 5th level, you gain the ability to cast the {@spell darkness} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
 							]
@@ -289,7 +297,7 @@
 					]
 				},
 				{
-					"name": "Fey",
+					"name": "Feywild",
 					"alias": [
     					"Eladrin"
 					],
@@ -364,6 +372,13 @@
 			"entries": [
 				{
 					"type": "entries",
+					"name": "Primordial Connection",
+					"entries": [
+						"You know the {@spell detect magic} and {@spell disguise self} spells. When you use this version of {@spell disguise self}, you can seem up to 3 feet shorter or taller. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Powerful Build",
 					"entries": [
 						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
@@ -401,7 +416,8 @@
 							"type": "entries",
 							"name": "Stampeding Step",
 							"entries": [
-								"You can take the Dash action as a bonus action. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. Whenever you use this trait if you move at least 20 feet straight toward a creature and then hit it with a melee weapon attack on the same turn, that target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked {@condition prone}."
+								"You can take the Dash action as a bonus action. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+								" Whenever you use this trait if you move at least 20 feet straight toward a creature and then hit it with a melee weapon attack on the same turn, that target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked {@condition prone}."
 							]
 						}
 					]
@@ -480,6 +496,13 @@
 							"entries": [
 								"You have resistance to fire damage. You also know the {@spell produce flame} cantrip. Starting at 3rd level, you can cast the {@spell burning hands} spell once. Starting at 5th level, you gain the ability to cast the {@spell flame blade} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
 							]
+						},
+						{
+							"type": "entries",
+							"name": "",
+							"entries": [
+								"TODO"
+							]
 						}
 					]
 				},
@@ -547,16 +570,35 @@
 					"name": "Hill",
 					"alias": [
 						"Rock"
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "",
+							"entries": [
+								"TODO"
+							]
+						}
 					]
 				},
 				{
-					"name": "Forest"
+					"name": "Forest",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "",
+							"entries": [
+								"TODO"
+							]
+						}
+					]
 				},
 				{
 					"name": "Deep",
 					"alias": [
 						"Svirfneblin"
 					],
+					"darkvision": 120,
 					"entries": [
 						{
 							"type": "entries",
@@ -566,6 +608,13 @@
 							},
 							"entries": [
 								"You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "",
+							"entries": [
+								"TODO"
 							]
 						}
 					]
@@ -748,6 +797,115 @@
 			]
 		},
 		{
+			"name": "Half-Elf",
+			"source": "WithinThoseShatteredPlains",
+			"lineage": "VRGR",
+			"size": ["M"],
+			"speed": 30,
+			"darkvision": 60,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Adaptable",
+					"entries": [
+						"You have proficiency in two skills of your choice. In addition, you gain fluency in one language of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Elven Lineage",
+					"entries": [
+						"Your elven ancestry grants you the ability to innately cast certain spells based on your selected lineage. Intelligence, Wisdom, or Charisma is the spellcasting ability for these spells.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Sun Elf",
+									"entry": "You know the {@spell light} cantrip. Starting at 3rd level, you can cast the {@spell color spray} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast this spell again."
+								},
+								{
+									"type": "item",
+									"name": "Moon Elf",
+									"entry": "You know the {@spell minor illusion} cantrip. Starting at 3rd level, you can cast the {@spell sleep} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast this spell again."
+								},
+								{
+									"type": "item",
+									"name": "Dark Elf",
+									"entry": "You know the {@spell dancing lights} cantrip. Starting at 3rd level, you can cast the {@spell faerie fire} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast this spell again."
+								},
+								{
+									"type": "item",
+									"name": "Feywild or Shadowfell Elf",
+									"entry": "Starting at 3rd level, you can cast the {@spell misty step} spell. You can use this trait a number of times equal to your half proficiency bonus (rounded down), and you regain all expended uses when you finish a long rest."
+								}
+							]
+						}	
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sylvan Ancestry",
+					"entries": [
+						"You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+					]
+				}
+			],
+			"traitTags": [
+				"Skill Proficiency",
+				"Spellcasting"
+			]
+		},
+		{
+			"name": "Half-Orc",
+			"source": "WithinThoseShatteredPlains",
+			"lineage": "VRGR",
+			"size": ["M"],
+			"speed": 30,
+			"darkvision": 60,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Adaptable",
+					"entries": [
+						"You have proficiency in two skills of your choice. In addition, you gain fluency in one language of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Relentless Endurance",
+					"entries": [
+						"When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. Once you use this trait, you can't do so again until you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "",
+					"entries": [
+						"TODO"	
+					]
+				}
+			],
+			"traitTags": [
+				"Skill Proficiency"
+			]
+		},
+		{
 			"name": "Halfling",
 			"source": "WithinThoseShatteredPlains",
 			"lineage": "VRGR",
@@ -786,6 +944,32 @@
 			"skillProficiencies": [
 				{
 					"stealth": true
+				}
+			],
+			"traitTags": [
+				"Skill Proficiency"
+			]
+		},
+		{
+			"name": "Human",
+			"source": "WithinThoseShatteredPlains",
+			"lineage": "VRGR",
+			"size": ["M"],
+			"speed": 30,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Adaptable",
+					"entries": [
+						"You have proficiency in two skills of your choice. In addition, you gain fluency in one language of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Human Ingenuity",
+					"entries": [
+						"You gain one Feat of your choice."
+					]
 				}
 			],
 			"traitTags": [
@@ -842,9 +1026,65 @@
 				},
 				{
 					"type": "entries",
+					"name": "Crafty",
+					"entries": [
+						"You have proficiency in one of the following skills of your choice: {@skill Arcana}, {@skill Investigation}, {@skill Medicine}, {@skill Sleight of Hand}, or {@skill Survival}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Defiant",
+					"entries": [
+						"You have advantage on saving throws against being {@condition frightened}."
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Draconic Cry",
 					"entries": [
 						"As a bonus action, you let out a cry at your enemies within 10 feet of you. Until the start of your next turn, you and your allies have advantage on attack rolls against any of those enemies who could hear you. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+					]
+				}
+			],
+			"traitTags": [
+				"Skill Proficiency"
+			]
+		},
+		{
+			"name": "Orc",
+			"source": "WithinThoseShatteredPlains",
+			"lineage": "VRGR",
+			"size": ["M"],
+			"speed": 30,
+			"darkvision": 60,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Adrenaline Rush",
+					"entries": [
+						"You can take the Dash action as a bonus action. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+						"Whenever you use this trait, you gain a number of temporary hit points equal to your proficiency bonus."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Relentless Endurance",
+					"entries": [
+						"When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. Once you use this trait, you can't do so again until you finish a long rest."
 					]
 				}
 			]
@@ -916,7 +1156,7 @@
 					"type": "entries",
 					"name": "Otherworldly Presence",
 					"entries": [
-						"You know the {@spell thaumaturgy} cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability."
+						"You know the {@spell thaumaturgy} cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell."
 					]
 				}
 			],
