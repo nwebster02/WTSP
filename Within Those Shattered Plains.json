@@ -124,13 +124,6 @@
 				},
 				{
 					"type": "entries",
-					"name": "Dwarven Toughness",
-					"entries": [
-						"Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
-					]
-				},
-				{
-					"type": "entries",
 					"name": "Forgewise",
 					"entries": [
 						"You gain proficiency with two of the following artisan's tools of your choice: Jeweler's Tools, Mason's Tools, Smith's Tools, or Tinker's Tools."
@@ -147,6 +140,45 @@
 			"traitTags": [
 				"Damage Resistance",
 				"Tool Proficiency"
+			],
+			"subraces": [
+				{
+					"name": "Mountain",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Dwarven Toughness",
+							"entries": [
+								"Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+							]
+						}
+					]
+				},
+				{
+					"name": "Deep",
+					"alias": [
+						"Duergar"
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Superior Darkvision",
+							"data": {
+								"overwrite": "Darkvision"
+							},
+							"entries": [
+								"You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Mental Fortitude",
+							"entries": [
+								"You have advantage on saving throws you make to avoid or end the {@condition charmed} or {@condition stunned} condition on yourself."
+							]
+						}
+					]
+				}
 			]
 		},
 		{
@@ -524,6 +556,18 @@
 					"name": "Deep",
 					"alias": [
 						"Svirfneblin"
+					],
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Superior Darkvision",
+							"data": {
+								"overwrite": "Darkvision"
+							},
+							"entries": [
+								"You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+							]
+						}
 					]
 				}
 			]
@@ -779,6 +823,30 @@
 			],
 			"traitTags": [
 				"Skill Proficiency"
+			]
+		},
+		{
+			"name": "Kobold",
+			"source": "WithinThoseShatteredPlains",
+			"lineage": "VRGR",
+			"size": ["S"],
+			"speed": 30,
+			"darkvision": 60,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Draconic Cry",
+					"entries": [
+						"As a bonus action, you let out a cry at your enemies within 10 feet of you. Until the start of your next turn, you and your allies have advantage on attack rolls against any of those enemies who could hear you. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+					]
+				}
 			]
 		},
 		{
