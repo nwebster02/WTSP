@@ -45,6 +45,13 @@
 					"entries": [
 						"As an action, you can touch a creature and roll a number of d4s equal to your proficiency bonus. The creature regains a number of hit points equal to the total rolled. Once you use this trait, you can't use it again until you finish a long rest."
 					]
+				},
+				{
+					"type": "entries",
+					"name": "Pactblood Descendent",
+					"entries": [
+						"You have one or more traits from another lineage derived from your parentage that you and your DM agree is appropriate for your character."
+					]
 				}
 			],
 			"traitTags": [
@@ -147,7 +154,7 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Dwarven Toughness",
+							"name": "Dwarven Toughness TODO",
 							"entries": [
 								"Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
 							]
@@ -173,9 +180,12 @@
 						},
 						{
 							"type": "entries",
-							"name": "Mental Fortitude",
+							"name": "Duergar Resilience",
+							"data": {
+								"overwrite": "Dwarven Resilience"
+							},
 							"entries": [
-								"You have advantage on saving throws you make to avoid or end the {@condition charmed} or {@condition stunned} condition on yourself."
+								"You have advantage on saving throws against being {@condition charmed}, {@condition stunned}, or {@condition poisioned} and you have resistance against poison damage."
 							]
 						},
 						{
@@ -372,7 +382,7 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Primordial Connection",
+					"name": "Firbolg Magic",
 					"entries": [
 						"You know the {@spell detect magic} and {@spell disguise self} spells. When you use this version of {@spell disguise self}, you can seem up to 3 feet shorter or taller. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
 					]
@@ -417,7 +427,7 @@
 							"name": "Stampeding Step",
 							"entries": [
 								"You can take the Dash action as a bonus action. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
-								" Whenever you use this trait if you move at least 20 feet straight toward a creature and then hit it with a melee weapon attack on the same turn, that target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked {@condition prone}."
+								"Whenever you use this trait if you move at least 20 feet straight toward a creature and then hit it with a melee weapon attack on the same turn, that target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked {@condition prone}."
 							]
 						}
 					]
@@ -440,6 +450,13 @@
 					"name": "Darkvision",
 					"entries": [
 						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pactblood Descendent",
+					"entries": [
+						"You have one or more traits from another lineage derived from your parentage that you and your DM agree is appropriate for your character."
 					]
 				}
 			],
@@ -548,7 +565,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Gnomish Magic Resistance",
+					"name": "Gnome Cunning",
 					"entries": [
 						"You have advantage on all Wisdom, Intelligence, and Charisma saves against spells."
 					]
@@ -574,9 +591,9 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "",
+							"name": "Tinkerer",
 							"entries": [
-								"TODO"
+								"You know the {@spell mending} cantrip. You can also spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device that produces one of the effects of the {@spell prestidigitation} spell. The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time."
 							]
 						}
 					]
@@ -586,9 +603,9 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "",
+							"name": "Trickster",
 							"entries": [
-								"TODO"
+								"You know the {@spell minor illusion} cantrip. You also have the ability to communicate in a limited manner with Small or smaller Beasts. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all Charisma checks you make to influence them."
 							]
 						}
 					]
@@ -612,9 +629,9 @@
 						},
 						{
 							"type": "entries",
-							"name": "",
+							"name": "Camouflage TODO",
 							"entries": [
-								"TODO"
+								"When you make a Dexterity ({@skill Stealth}) check, you can make the check with advantage. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
 							]
 						}
 					]
@@ -813,6 +830,13 @@
 				},
 				{
 					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Elven Lineage",
 					"entries": [
 						"Your elven ancestry grants you the ability to innately cast certain spells based on your selected lineage. Intelligence, Wisdom, or Charisma is the spellcasting ability for these spells.",
@@ -838,17 +862,10 @@
 								{
 									"type": "item",
 									"name": "Feywild or Shadowfell Elf",
-									"entry": "Starting at 3rd level, you can cast the {@spell misty step} spell. You can use this trait a number of times equal to your half proficiency bonus (rounded down), and you regain all expended uses when you finish a long rest."
+									"entry": "You can cast the {@spell misty step} spell. You can use this trait a number of times equal to your half proficiency bonus (rounded down), and you regain all expended uses when you finish a long rest."
 								}
 							]
 						}	
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Darkvision",
-					"entries": [
-						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
 					]
 				},
 				{
@@ -1019,16 +1036,16 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Darkvision",
+					"name": "Crafty",
 					"entries": [
-						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+						"You have proficiency in one of the following skills of your choice: {@skill Arcana}, {@skill Investigation}, {@skill Medicine}, {@skill Sleight of Hand}, or {@skill Survival}."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Crafty",
+					"name": "Darkvision",
 					"entries": [
-						"You have proficiency in one of the following skills of your choice: {@skill Arcana}, {@skill Investigation}, {@skill Medicine}, {@skill Sleight of Hand}, or {@skill Survival}."
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
 					]
 				},
 				{
@@ -1060,17 +1077,17 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Darkvision",
-					"entries": [
-						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
-					]
-				},
-				{
-					"type": "entries",
 					"name": "Adrenaline Rush",
 					"entries": [
 						"You can take the Dash action as a bonus action. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
 						"Whenever you use this trait, you gain a number of temporary hit points equal to your proficiency bonus."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
 					]
 				},
 				{
@@ -1158,6 +1175,13 @@
 					"entries": [
 						"You know the {@spell thaumaturgy} cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell."
 					]
+				},
+				{
+					"type": "entries",
+					"name": "Pactblood Descendent",
+					"entries": [
+						"You have one or more traits from another lineage derived from your parentage that you and your DM agree is appropriate for your character."
+					]
 				}
 			],
 			"subraces": [
@@ -1186,7 +1210,7 @@
 							"type": "entries",
 							"name": "Abyssal Legacy",
 							"entries": [
-								"You have advantage on saving throws against being {@condition poisoned}, and you have resistance against poison damage. You also know the {@spell poison spray} cantrip. Starting at 3rd level, you can cast the {@spell ray of sickness} spell once. Starting at 5th level, you gain the ability to cast the {@spell hold person} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
+								"You have advantage on saving throws against being {@condition poisoned}, and you have resistance against poison damage. You also know the {@spell poison spray} cantrip. Starting at 3rd level, you can cast the {@spell ray of sickness} spell once. Starting at 5th level, you gain the ability to cast the {@spell alter self} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
 							]
 						}
 					]
