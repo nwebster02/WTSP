@@ -36,7 +36,7 @@
 					"type": "entries",
 					"name": "Celestial Legacy",
 					"entries": [
-						"You have resistance to necrotic damage and radiant damage. You also know the {@spell word of radiance|XGE} cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell."
+						"You have resistance to necrotic damage and radiant damage. You also know the {@spell light} cantrip. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell."
 					]
 				},
 				{
@@ -62,6 +62,17 @@
 				"radiant",
 				"necrotic"
 			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"name": "Age",
+						"entries": [
+							"Aasimar live as long as their base lineage, but begin to show signs of age much later in life."
+						]
+					}
+				]
+			},
 			"subraces": [
 				{
 					"name": "Fallen",
@@ -75,7 +86,18 @@
 								"Once you use this trait, you can't use it again until you finish a long rest."
 							]
 						}
-					]
+					],
+					"fluff": {
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Age",
+								"entries": [
+									"Aasimar live as long as their base lineage, but begin to show signs of age much later in life."
+								]
+							}
+						]
+					}
 				},
 				{
 					"name": "Protector",
@@ -89,7 +111,18 @@
 								"Once you use this trait, you can't use it again until you finish a long rest."
 							]
 						}
-					]
+					],
+					"fluff": {
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Age",
+								"entries": [
+									"Aasimar live as long as their base lineage, but begin to show signs of age much later in life."
+								]
+							}
+						]
+					}
 				},
 				{
 					"name": "Scourge",
@@ -103,7 +136,18 @@
 								"Once you use this trait, you can't use it again until you finish a long rest."
 							]
 						}
-					]
+					],
+					"fluff": {
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Age",
+								"entries": [
+									"Aasimar live as long as their base lineage, but begin to show signs of age much later in life."
+								]
+							}
+						]
+					}
 				}
 			]
 		},
@@ -148,18 +192,40 @@
 				"Damage Resistance",
 				"Tool Proficiency"
 			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"name": "Age",
+						"entries": [
+							"Dwarves can live up to 250 years old."
+						]
+					}
+				]
+			},
 			"subraces": [
 				{
 					"name": "Mountain",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Dwarven Toughness TODO",
+							"name": "Dwarven Toughness",
 							"entries": [
 								"Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
 							]
 						}
-					]
+					],
+					"fluff": {
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Age",
+								"entries": [
+									"Dwarves can live up to 250 years old."
+								]
+							}
+						]
+					}
 				},
 				{
 					"name": "Deep",
@@ -185,7 +251,7 @@
 								"overwrite": "Dwarven Resilience"
 							},
 							"entries": [
-								"You have advantage on saving throws against being {@condition charmed}, {@condition stunned}, or {@condition poisioned} and you have resistance against poison damage."
+								"You have advantage on saving throws against being {@condition poisoned}, and you have resistance against poison damage. You also have advantage on saving throws against being {@condition charmed}, {@condition stunned}."
 							]
 						},
 						{
@@ -195,7 +261,18 @@
 								"TODO"
 							]
 						}
-					]
+					],
+					"fluff": {
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Age",
+								"entries": [
+									"Dwarves can live up to 250 years old."
+								]
+							}
+						]
+					}
 				}
 			]
 		},
@@ -245,6 +322,24 @@
 				"Improved Resting",
 				"Skill Proficiency"
 			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"name": "Age",
+						"entries": [
+							"Elves live up to 500 years old."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Sylvan Heirs",
+						"entries": [
+							"Heirs to the ancient Sylvan Ascendency, the elves once governed a vast empire and freely traveled the planes during a golden age of discovery. An event known as The Planar Severance destroyed the Sylvan Ascendency and divided its people. The world is still recovering from the many conflicts followed in its wake."
+						]
+					}
+				]
+			},
 			"subraces": [
 				{
 					"name": "Sun",
@@ -259,7 +354,32 @@
 					],
 					"traitTags": [
 						"Spellcasting"
-					]
+					],
+					"fluff": {
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Age",
+								"entries": [
+									"Elves live up to 500 years old."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Sylvan Heirs",
+								"entries": [
+									"Heirs to the ancient Sylvan Ascendency, the elves once governed a vast empire and freely traveled the planes during a golden age of discovery. An event known as The Planar Severance destroyed the Sylvan Ascendency and divided its people. The world is still recovering from the many conflicts followed in its wake."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "",
+								"entries": [
+									""
+								]
+							}
+						]
+					}
 				},
 				{
 					"name": "Moon",
@@ -274,7 +394,32 @@
 					],
 					"traitTags": [
 						"Spellcasting"
-					]
+					],
+					"fluff": {
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Age",
+								"entries": [
+									"Elves live up to 500 years old."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Sylvan Heirs",
+								"entries": [
+									"Heirs to the ancient Sylvan Ascendency, the elves once governed a vast empire and freely traveled the planes during a golden age of discovery. An event known as The Planar Severance destroyed the Sylvan Ascendency and divided its people. The world is still recovering from the many conflicts followed in its wake."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "",
+								"entries": [
+									""
+								]
+							}
+						]
+					}
 				},
 				{
 					"name": "Dark",
@@ -304,7 +449,32 @@
 					],
 					"traitTags": [
 						"Spellcasting"
-					]
+					],
+					"fluff": {
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Age",
+								"entries": [
+									"Elves live up to 500 years old."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Sylvan Heirs",
+								"entries": [
+									"Heirs to the ancient Sylvan Ascendency, the elves once governed a vast empire and freely traveled the planes during a golden age of discovery. An event known as The Planar Severance destroyed the Sylvan Ascendency and divided its people. The world is still recovering from the many conflicts followed in its wake."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "",
+								"entries": [
+									""
+								]
+							}
+						]
+					}
 				},
 				{
 					"name": "Feywild",
@@ -324,16 +494,6 @@
 									"items": [
 										{
 											"type": "item",
-											"name": "Autumn",
-											"entry": "Immediately after you you teleport using this trait, up to two creatures of your choice that you can see within 10 feet of you must succeed on a Wisdom saving throw or be {@condition charmed} by you for 1 minute, or until you or your companions deal any damage to the creatures."
-										},
-										{
-											"type": "item",
-											"name": "Winter",
-											"entry": "When you teleport using this trait, one creature of your choice that you can see within 5 feet of you before you teleport must succeed on a Wisdom saving throw or be {@condition frightened} of you until the end of your next turn."
-										},
-										{
-											"type": "item",
 											"name": "Spring",
 											"entry": "When you teleport using this trait, you can touch one willing creature within 5 feet of you. That creature then teleports instead of you, appearing in an unoccupied space of your choice that you can see within 30 feet of you."
 										},
@@ -341,12 +501,47 @@
 											"type": "item",
 											"name": "Summer",
 											"entry": "Immediately after you teleport using this trait, each creature of your choice that you can see within 5 feet of you takes fire damage equal to your proficiency bonus."
+										},
+										{
+											"type": "item",
+											"name": "Autumn",
+											"entry": "Immediately after you you teleport using this trait, up to two creatures of your choice that you can see within 10 feet of you must succeed on a Wisdom saving throw or be {@condition charmed} by you for 1 minute, or until you or your companions deal any damage to the creatures."
+										},
+										{
+											"type": "item",
+											"name": "Winter",
+											"entry": "When you teleport using this trait, one creature of your choice that you can see within 5 feet of you before you teleport must succeed on a Wisdom saving throw or be {@condition frightened} of you until the end of your next turn."
 										}
 									]
 								}
 							]
 						}
-					]
+					],
+					"fluff": {
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Age",
+								"entries": [
+									"Elves live up to 500 years old."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Sylvan Heirs",
+								"entries": [
+									"Heirs to the ancient Sylvan Ascendency, the elves once governed a vast empire and freely traveled the planes during a golden age of discovery. An event known as The Planar Severance destroyed the Sylvan Ascendency and divided its people. The world is still recovering from the many conflicts followed in its wake."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "",
+								"entries": [
+									""
+								]
+							}
+						]
+					}
 				},
 				{
 					"name": "Shadowfell",
@@ -369,7 +564,32 @@
 					],
 					"resist": [
 						"necrotic"
-					]
+					],
+					"fluff": {
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Age",
+								"entries": [
+									"Elves live up to 500 years old."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Sylvan Heirs",
+								"entries": [
+									"Heirs to the ancient Sylvan Ascendency, the elves once governed a vast empire and freely traveled the planes during a golden age of discovery. An event known as The Planar Severance destroyed the Sylvan Ascendency and divided its people. The world is still recovering from the many conflicts followed in its wake."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "",
+								"entries": [
+									""
+								]
+							}
+						]
+					}
 				}
 			]
 		},
@@ -406,6 +626,17 @@
 				"Powerful Build",
 				"Spellcasting"
 			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"name": "Age",
+						"entries": [
+							"Firbolgs can live up to 400 years old."
+						]
+					}
+				]
+			},
 			"subraces": [
 				{
 					"name": "Forest",
@@ -417,7 +648,18 @@
 								"As a bonus action, you can magically turn invisible until the start of your next turn or until you attack, make a damage roll, or force someone to make a saving throw. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
 							]
 						}
-					]
+					],
+					"fluff": {
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Age",
+								"entries": [
+									"Firbolgs can live up to 400 years old."
+								]
+							}
+						]
+					}
 				},
 				{
 					"name": "Plains",
@@ -426,11 +668,21 @@
 							"type": "entries",
 							"name": "Stampeding Step",
 							"entries": [
-								"You can take the Dash action as a bonus action. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
-								"Whenever you use this trait if you move at least 20 feet straight toward a creature and then hit it with a melee weapon attack on the same turn, that target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked {@condition prone}."
+								"If you move at least 20 feet towards a creature that is no more than one size larger than you, you can use a bonus action to attempt to shove it, either to knock it {@condition prone} or push it away from you. A creature can avoid being shoved by making a successful Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check against a DC of 8 + your Strength ({@skill Athletics}) modifier. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
 							]
 						}
-					]
+					],
+					"fluff": {
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Age",
+								"entries": [
+									"Firbolgs can live up to 400 years old."
+								]
+							}
+						]
+					}
 				}
 			]
 		},
@@ -464,6 +716,17 @@
 				"Damage Resistance",
 				"Spellcasting"
 			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"name": "Age",
+						"entries": [
+							"Genasi live as long as their base lineage, but begin to show signs of age much later in life."
+						]
+					}
+				]
+			},
 			"subraces": [
 				{
 					"name": "Air",
@@ -483,7 +746,18 @@
 								"You have resistance to lightning damage. You also know the {@spell gust|XGE} cantrip. Starting at 3rd level, you can cast the {@spell feather fall} spell once. Starting at 5th level, you gain the ability to cast the {@spell levitate} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
 							]
 						}
-					]
+					],
+					"fluff": {
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Age",
+								"entries": [
+									"Genasi live as long as their base lineage, but begin to show signs of age much later in life."
+								]
+							}
+						]
+					}
 				},
 				{
 					"name": "Earth",
@@ -499,10 +773,21 @@
 							"type": "entries",
 							"name": "Elemental Legacy",
 							"entries": [
-								"You have advantage on saving throws against being {@condition poisoned}, and you have resistance against poison damage. You also know the {@spell mold earth|XGE} cantrip. Starting at 3rd level, you can cast the {@spell earth tremor|XGE} spell once. Starting at 5th level, you gain the ability to cast the {@spell maximilian's earthen grasp|XGE} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
+								"You have advantage on saving throws against being {@condition poisoned}, and you have resistance against poison damage. You also know the {@spell mold earth|XGE} cantrip. Starting at 3rd level, you can cast the {@spell earth tremor|XGE} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
 							]
 						}
-					]
+					],
+					"fluff": {
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Age",
+								"entries": [
+									"Genasi live as long as their base lineage, but begin to show signs of age much later in life."
+								]
+							}
+						]
+					}
 				},
 				{
 					"name": "Fire",
@@ -511,17 +796,28 @@
 							"type": "entries",
 							"name": "Elemental Legacy",
 							"entries": [
-								"You have resistance to fire damage. You also know the {@spell produce flame} cantrip. Starting at 3rd level, you can cast the {@spell burning hands} spell once. Starting at 5th level, you gain the ability to cast the {@spell flame blade} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
+								"You have resistance to fire damage. You also know the {@spell produce flame} cantrip. Starting at 3rd level, you can cast the {@spell burning hands} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "",
+							"name": "Heated Body",
 							"entries": [
-								"TODO"
+								"When you are hit by a creature with an attack, you can use your reaction to deal fire damage to it equal to your proficiency bonus. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
 							]
 						}
-					]
+					],
+					"fluff": {
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Age",
+								"entries": [
+									"Genasi live as long as their base lineage, but begin to show signs of age much later in life."
+								]
+							}
+						]
+					}
 				},
 				{
 					"name": "Water",
@@ -541,10 +837,24 @@
 							"type": "entries",
 							"name": "Elemental Legacy",
 							"entries": [
-								"You have resistance to acid damage. You also know the {@spell acid splash} cantrip. Starting at 3rd level, you can cast the {@spell create or destroy water} spell once. Starting at 5th level, you gain the ability to cast the {@spell water walk} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
+								"You have resistance to acid damage. You also know the {@spell shape water|XGE} cantrip. Starting at 3rd level, you can cast the {@spell create or destroy water} spell once. Starting at 5th level, you gain the ability to cast the {@spell water walk} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
 							]
 						}
-					]
+					],
+					"traitTags": [
+						"Amphibious"
+					],
+					"fluff": {
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Age",
+								"entries": [
+									"Genasi live as long as their base lineage, but begin to show signs of age much later in life."
+								]
+							}
+						]
+					}
 				}
 			]
 		},
@@ -565,7 +875,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Gnome Cunning",
+					"name": "Gnomish Magic Resistance",
 					"entries": [
 						"You have advantage on all Wisdom, Intelligence, and Charisma saves against spells."
 					]
@@ -582,6 +892,17 @@
 				"Magic Resistance",
 				"Skill Proficiency"
 			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"name": "Age",
+						"entries": [
+							"Gnomes can live up to 300 years old."
+						]
+					}
+				]
+			},
 			"subraces": [
 				{
 					"name": "Hill",
@@ -591,24 +912,46 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Tinkerer",
+							"name": "Hill Gnome Trait",
 							"entries": [
 								"You know the {@spell mending} cantrip. You can also spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device that produces one of the effects of the {@spell prestidigitation} spell. The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time."
 							]
 						}
-					]
+					],
+					"fluff": {
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Age",
+								"entries": [
+									"Gnomes can live up to 300 years old."
+								]
+							}
+						]
+					}
 				},
 				{
 					"name": "Forest",
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Trickster",
+							"name": "Forest Gnome Trait",
 							"entries": [
-								"You know the {@spell minor illusion} cantrip. You also have the ability to communicate in a limited manner with Small or smaller Beasts. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all Charisma checks you make to influence them."
+								"You know the {@spell druidcraft} cantrip. You also have the ability to communicate in a limited manner with Small or smaller Beasts. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all Charisma checks you make to influence them."
 							]
 						}
-					]
+					],
+					"fluff": {
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Age",
+								"entries": [
+									"Gnomes can live up to 300 years old."
+								]
+							}
+						]
+					}
 				},
 				{
 					"name": "Deep",
@@ -629,12 +972,23 @@
 						},
 						{
 							"type": "entries",
-							"name": "Camouflage TODO",
+							"name": "Deep Gnome Trait",
 							"entries": [
 								"When you make a Dexterity ({@skill Stealth}) check, you can make the check with advantage. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
 							]
 						}
-					]
+					],
+					"fluff": {
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Age",
+								"entries": [
+									"Gnomes can live up to 300 years old."
+								]
+							}
+						]
+					}
 				}
 			]
 		},
@@ -668,6 +1022,13 @@
 				"entries": [
 					{
 						"type": "entries",
+						"name": "Age",
+						"entries": [
+							"Goblinoids can live up to 80 years old."
+						]
+					},
+					{
+						"type": "entries",
 						"name": "Planar Vagabonds",
 						"entries": [
 							"Foreigners to this world, the goblins traveled as four separate tribes across the elemental plane after the destruction of their home. Their god split their essence among four powerful artifacts to aid each tribe's expedition in finding a new home. Only three of the four tribes, however, have successfully made it to the world, and the artifacts have been lost in the multitude of conflicts since their arrival.",
@@ -695,7 +1056,18 @@
 								"You can take the Disengage or Hide action as a bonus action on each of your turns."
 							]
 						}
-					]
+					],
+					"fluff": {
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Age",
+								"entries": [
+									"Goblins can live up to 80 years old."
+								]
+							}
+						]
+					}
 				},
 				{
 					"name": "Hobgoblin",
@@ -719,7 +1091,18 @@
 					"traitTags": [
 						"Magic Resistance",
 						"Spellcasting"
-					]
+					],
+					"fluff": {
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Age",
+								"entries": [
+									"Hobgoblins can live up to 80 years old."
+								]
+							}
+						]
+					}
 				},
 				{
 					"name": "Bugbear",
@@ -759,10 +1142,20 @@
 					"traitTags": [
 						"Powerful Build",
 						"Skill Proficiency"
-					]
+					],
+					"fluff": {
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Age",
+								"entries": [
+									"Bugbears can live up to 80 years old."
+								]
+							}
+						]
+					}
 				}
 			]
-		
 		},
 		{
 			"name": "Goliath",
@@ -811,7 +1204,18 @@
 			],
 			"resist": [
 				"cold"
-			]
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"name": "Age",
+						"entries": [
+							"Goliaths can live up to 100 years."
+						]
+					}
+				]
+			}
 		},
 		{
 			"name": "Half-Elf",
@@ -825,7 +1229,7 @@
 					"type": "entries",
 					"name": "Adaptable",
 					"entries": [
-						"You have proficiency in two skills of your choice. In addition, you gain fluency in one language of your choice."
+						"You have proficiency in two skills of your choice."
 					]
 				},
 				{
@@ -879,7 +1283,18 @@
 			"traitTags": [
 				"Skill Proficiency",
 				"Spellcasting"
-			]
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"name": "Age",
+						"entries": [
+							"Half-Elves can live up to 200 years old."
+						]
+					}
+				]
+			}
 		},
 		{
 			"name": "Half-Orc",
@@ -893,7 +1308,7 @@
 					"type": "entries",
 					"name": "Adaptable",
 					"entries": [
-						"You have proficiency in two skills of your choice. In addition, you gain fluency in one language of your choice."
+						"You have proficiency in two skills of your choice."
 					]
 				},
 				{
@@ -912,15 +1327,26 @@
 				},
 				{
 					"type": "entries",
-					"name": "",
+					"name": "Savage Attacks",
 					"entries": [
-						"TODO"	
+						"When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."	
 					]
 				}
 			],
 			"traitTags": [
 				"Skill Proficiency"
-			]
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"name": "Age",
+						"entries": [
+							"Half-Orcs can live up to 75 years."
+						]
+					}
+				]
+			}
 		},
 		{
 			"name": "Halfling",
@@ -965,7 +1391,18 @@
 			],
 			"traitTags": [
 				"Skill Proficiency"
-			]
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"name": "Age",
+						"entries": [
+							"Halflings live up to 150 years old."
+						]
+					}
+				]
+			}
 		},
 		{
 			"name": "Human",
@@ -978,7 +1415,7 @@
 					"type": "entries",
 					"name": "Adaptable",
 					"entries": [
-						"You have proficiency in two skills of your choice. In addition, you gain fluency in one language of your choice."
+						"You have proficiency in two skills of your choice."
 					]
 				},
 				{
@@ -991,7 +1428,18 @@
 			],
 			"traitTags": [
 				"Skill Proficiency"
-			]
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"name": "Age",
+						"entries": [
+							"Humans live up to 100 years old."
+						]
+					}
+				]
+			}
 		},
 		{
 			"name": "Kenku",
@@ -1024,7 +1472,18 @@
 			],
 			"traitTags": [
 				"Skill Proficiency"
-			]
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"name": "Age",
+						"entries": [
+							"Kenku can live up to 60 years old."
+						]
+					}
+				]
+			}
 		},
 		{
 			"name": "Kobold",
@@ -1065,7 +1524,18 @@
 			],
 			"traitTags": [
 				"Skill Proficiency"
-			]
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"name": "Age",
+						"entries": [
+							"Kobolds live up to 125 years old."
+						]
+					}
+				]
+			}
 		},
 		{
 			"name": "Orc",
@@ -1077,17 +1547,17 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Adrenaline Rush",
+					"name": "Darkvision",
 					"entries": [
-						"You can take the Dash action as a bonus action. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
-						"Whenever you use this trait, you gain a number of temporary hit points equal to your proficiency bonus."
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Darkvision",
+					"name": "Adrenaline Rush",
 					"entries": [
-						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+						"You can take the Dash action as a bonus action. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+						"Whenever you use this trait, you gain a number of temporary hit points equal to your proficiency bonus."
 					]
 				},
 				{
@@ -1103,8 +1573,26 @@
 					"entries": [
 						"When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. Once you use this trait, you can't do so again until you finish a long rest."
 					]
+				},
+				{
+					"type": "entries",
+					"name": "Savage Attacks",
+					"entries": [
+						"When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."	
+					]
 				}
-			]
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"name": "Age",
+						"entries": [
+							"Orcs can live up to 50 years."
+						]
+					}
+				]
+			}
 		},
 		{
 			"name": "Soulforged",
@@ -1152,7 +1640,25 @@
 				"Improved Resting",
 				"Skill Proficiency",
 				"Tool Proficiency"
-			]
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"name": "Age",
+						"entries": [
+							"It is unknown how long Soulforged live for as they show no sign of physical age. They are, however, prone to losing memories and can potentially stop functioning at any minute without warning, never to wake up. "
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Arcane Automatons",
+						"entries": [
+							"There have been many attempts in history to create artificial beings. The Soulforged of the Shattered Plains, being one of the more successful endeavors, were made by the Magisterium to serve as assistants to the mages, scholars, and artisans of their Enlightened City. Not many Soulforged survived the Night of Frozen Flames when the city burned down and was buried under the snow and ice of a year-long blizzard. Most living today were dug out by scavengers in the many years since, retaining only slivers of their memories from before the turmoil."
+						]
+					}
+				]
+			}
 		},
 		{
 			"name": "Tiefling",
@@ -1184,6 +1690,17 @@
 					]
 				}
 			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"name": "Age",
+						"entries": [
+							"Tieflings live as long as their base lineage, but begin to show signs of age much later in life."
+						]
+					}
+				]
+			},
 			"subraces": [
 				{
 					"name": "Infernal",
@@ -1198,7 +1715,18 @@
 								"You have resistance to fire damage. You also know the {@spell fire bolt} cantrip. Starting at 3rd level, you can cast the {@spell hellish rebuke} spell once. Starting at 5th level, you gain the ability to cast the {@spell darkness} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
 							]
 						}
-					]
+					],
+					"fluff": {
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Age",
+								"entries": [
+									"Tieflings live as long as their base lineage, but begin to show signs of age much later in life."
+								]
+							}
+						]
+					}
 				},
 				{
 					"name": "Abyssal",
@@ -1213,7 +1741,18 @@
 								"You have advantage on saving throws against being {@condition poisoned}, and you have resistance against poison damage. You also know the {@spell poison spray} cantrip. Starting at 3rd level, you can cast the {@spell ray of sickness} spell once. Starting at 5th level, you gain the ability to cast the {@spell alter self} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
 							]
 						}
-					]
+					],
+					"fluff": {
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Age",
+								"entries": [
+									"Tieflings live as long as their base lineage, but begin to show signs of age much later in life."
+								]
+							}
+						]
+					}
 				}
 			]
 		}
