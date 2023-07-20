@@ -81,7 +81,7 @@
 							"type": "entries",
 							"name": "Necrotic Shroud",
 							"entries": [
-								"Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to turn into pools of darkness and two skeletal, ghostly, flightless wings to sprout from your back.",
+								"You can use your action to unleash the divine energy within yourself, causing your eyes to turn into pools of darkness and two skeletal, ghostly, flightless wings to sprout from your back.",
 								"Your transformation lasts for 1 minute or until you end it as a bonus action. During it, creatures other than your allies within 10 feet of you that can see you must succeed on a Charisma saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or become {@condition frightened} of you until the end of your next turn. Until the transformation ends, once on each of your turns, you can deal extra necrotic damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your proficiency bonus.",
 								"Once you use this trait, you can't use it again until you finish a long rest."
 							]
@@ -106,7 +106,7 @@
 							"type": "entries",
 							"name": "Radiant Soul",
 							"entries": [
-								"Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to glimmer and two luminous, incorporeal wings to sprout from your back.",
+								"You can use your action to unleash the divine energy within yourself, causing your eyes to glimmer and two luminous, incorporeal wings to sprout from your back.",
 								"Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you have a flying speed equal to your walking speed, and once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your proficiency bonus.",
 								"Once you use this trait, you can't use it again until you finish a long rest."
 							]
@@ -131,7 +131,7 @@
 							"type": "entries",
 							"name": "Radiant Consumption",
 							"entries": [
-								"Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing a searing light to radiate from you, pour out of your eyes and mouth, and threaten to char you.",
+								"You can use your action to unleash the divine energy within yourself, causing a searing light to radiate from you, pour out of your eyes and mouth, and threaten to char you.",
 								"Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, each creature within 10 feet of you takes radiant damage equal to your proficiency bonus. Until the transformation ends, once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your proficiency bonus.",
 								"Once you use this trait, you can't use it again until you finish a long rest."
 							]
@@ -256,9 +256,9 @@
 						},
 						{
 							"type": "entries",
-							"name": "",
+							"name": "Duergar Magic",
 							"entries": [
-								"TODO"
+								"You can cast the {@spell enlarge/reduce} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast this spell again. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell."
 							]
 						}
 					],
@@ -348,7 +348,7 @@
 							"type": "entries",
 							"name": "Blessing of the Sun",
 							"entries": [
-								"You know the {@spell light} cantrip. Starting at 3rd level, you can cast the {@spell color spray} spell once. Starting at 5th level, you gain the ability to cast the {@spell scorching ray} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
+								"You know the {@spell light} cantrip and can cast the {@spell color spray} spell once. Starting at 5th level, you gain the ability to cast the {@spell scorching ray} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
 							]
 						}
 					],
@@ -388,7 +388,7 @@
 							"type": "entries",
 							"name": "Blessing of the Moon",
 							"entries": [
-								"You know the {@spell minor illusion} cantrip. Starting at 3rd level, you can cast the {@spell sleep} spell once. Starting at 5th level, you gain the ability to cast the {@spell moonbeam} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
+								"You know the {@spell minor illusion} cantrip and can cast the {@spell sleep} spell once. Starting at 5th level, you gain the ability to cast the {@spell moonbeam} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
 							]
 						}
 					],
@@ -433,7 +433,7 @@
 							"type": "entries",
 							"name": "Blessing of the Dark",
 							"entries": [
-								"You know the {@spell dancing lights} cantrip. Starting at 3rd level, you can cast the {@spell faerie fire} spell once. Starting at 5th level, you gain the ability to cast the {@spell darkness} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
+								"You know the {@spell dancing lights} cantrip and can cast the {@spell faerie fire} spell once. Starting at 5th level, you gain the ability to cast the {@spell darkness} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
 							]
 						},
 						{
@@ -743,7 +743,7 @@
 							"type": "entries",
 							"name": "Elemental Legacy",
 							"entries": [
-								"You have resistance to lightning damage. You also know the {@spell gust|XGE} cantrip. Starting at 3rd level, you can cast the {@spell feather fall} spell once. Starting at 5th level, you gain the ability to cast the {@spell levitate} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
+								"You have resistance to lightning damage. You also know the {@spell gust|XGE} cantrip and can cast the {@spell feather fall} spell once. Starting at 5th level, you gain the ability to cast the {@spell levitate} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
 							]
 						}
 					],
@@ -773,7 +773,7 @@
 							"type": "entries",
 							"name": "Elemental Legacy",
 							"entries": [
-								"You have advantage on saving throws against being {@condition poisoned}, and you have resistance against poison damage. You also know the {@spell mold earth|XGE} cantrip. Starting at 3rd level, you can cast the {@spell earth tremor|XGE} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
+								"You have advantage on saving throws against being {@condition poisoned}, and you have resistance against poison damage. You also know the {@spell mold earth|XGE} cantrip and can cast the {@spell earth tremor|XGE} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast this spell again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
 							]
 						}
 					],
@@ -796,7 +796,7 @@
 							"type": "entries",
 							"name": "Elemental Legacy",
 							"entries": [
-								"You have resistance to fire damage. You also know the {@spell produce flame} cantrip. Starting at 3rd level, you can cast the {@spell burning hands} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
+								"You have resistance to fire damage. You also know the {@spell produce flame} cantrip and can cast the {@spell burning hands} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast this spell again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
 							]
 						},
 						{
@@ -837,7 +837,7 @@
 							"type": "entries",
 							"name": "Elemental Legacy",
 							"entries": [
-								"You have resistance to acid damage. You also know the {@spell shape water|XGE} cantrip. Starting at 3rd level, you can cast the {@spell create or destroy water} spell once. Starting at 5th level, you gain the ability to cast the {@spell water walk} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
+								"You have resistance to acid damage. You also know the {@spell shape water|XGE} cantrip and can cast the {@spell create or destroy water} spell once. Starting at 5th level, you gain the ability to cast the {@spell water walk} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
 							]
 						}
 					],
@@ -912,9 +912,9 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Hill Gnome Trait",
+							"name": "Hill Gnome Magic",
 							"entries": [
-								"You know the {@spell mending} cantrip. You can also spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device that produces one of the effects of the {@spell prestidigitation} spell. The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time."
+								"You know the {@spell mending} cantrip and can cast the {@spell detect magic} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast the spell again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
 							]
 						}
 					],
@@ -935,9 +935,9 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Forest Gnome Trait",
+							"name": "Forest Gnome Magic",
 							"entries": [
-								"You know the {@spell druidcraft} cantrip. You also have the ability to communicate in a limited manner with Small or smaller Beasts. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all Charisma checks you make to influence them."
+								"You know the {@spell druidcraft} cantrip and can cast the {@spell speak with animals} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast this spell again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
 							]
 						}
 					],
@@ -972,9 +972,9 @@
 						},
 						{
 							"type": "entries",
-							"name": "Deep Gnome Trait",
+							"name": "Deep Gnome Magic",
 							"entries": [
-								"When you make a Dexterity ({@skill Stealth}) check, you can make the check with advantage. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+								"You can cast the {@spell invisibility spell) once. You must finish a long rest or spend a spell slot of the appropriate level to cast this spell again. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell."
 							]
 						}
 					],
@@ -1077,7 +1077,7 @@
 							"type": "entries",
 							"name": "Hobgoblin Magic",
 							"entries": [
-								"You know the {@spell prestidigitation} cantrip. Starting at 3rd level, you can cast the {@spell absorb elements|XGE} spell once. Starting at 5th level, you gain the ability to cast the {@spell enhance ability} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
+								"You know the {@spell prestidigitation} cantrip and can cast the {@spell absorb elements|XGE} spell once. Starting at 5th level, you gain the ability to cast the {@spell enhance ability} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
 							]
 						},
 						{
@@ -1251,17 +1251,17 @@
 								{
 									"type": "item",
 									"name": "Sun Elf",
-									"entry": "You know the {@spell light} cantrip. Starting at 3rd level, you can cast the {@spell color spray} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast this spell again."
+									"entry": "You know the {@spell light} cantrip and can cast the {@spell color spray} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast this spell again."
 								},
 								{
 									"type": "item",
 									"name": "Moon Elf",
-									"entry": "You know the {@spell minor illusion} cantrip. Starting at 3rd level, you can cast the {@spell sleep} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast this spell again."
+									"entry": "You know the {@spell minor illusion} cantrip and can cast the {@spell silent image} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast this spell again."
 								},
 								{
 									"type": "item",
 									"name": "Dark Elf",
-									"entry": "You know the {@spell dancing lights} cantrip. Starting at 3rd level, you can cast the {@spell faerie fire} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast this spell again."
+									"entry": "You know the {@spell dancing lights} cantrip and can cast the {@spell faerie fire} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast this spell again."
 								},
 								{
 									"type": "item",
@@ -1712,7 +1712,7 @@
 							"type": "entries",
 							"name": "Infernal Legacy",
 							"entries": [
-								"You have resistance to fire damage. You also know the {@spell fire bolt} cantrip. Starting at 3rd level, you can cast the {@spell hellish rebuke} spell once. Starting at 5th level, you gain the ability to cast the {@spell darkness} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
+								"You have resistance to fire damage. You also know the {@spell fire bolt} cantrip and can cast the {@spell hellish rebuke} spell once. Starting at 5th level, you gain the ability to cast the {@spell darkness} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
 							]
 						}
 					],
@@ -1738,7 +1738,7 @@
 							"type": "entries",
 							"name": "Abyssal Legacy",
 							"entries": [
-								"You have advantage on saving throws against being {@condition poisoned}, and you have resistance against poison damage. You also know the {@spell poison spray} cantrip. Starting at 3rd level, you can cast the {@spell ray of sickness} spell once. Starting at 5th level, you gain the ability to cast the {@spell alter self} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
+								"You have advantage on saving throws against being {@condition poisoned}, and you have resistance against poison damage. You also know the {@spell poison spray} cantrip and can cast the {@spell ray of sickness} spell once. Starting at 5th level, you gain the ability to cast the {@spell alter self} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
 							]
 						}
 					],
