@@ -388,7 +388,7 @@
 							"type": "entries",
 							"name": "Blessing of the Moon",
 							"entries": [
-								"You know the {@spell minor illusion} cantrip and can cast the {@spell sleep} spell once. Starting at 5th level, you gain the ability to cast the {@spell moonbeam} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
+								"You know the {@spell minor illusion} cantrip and can cast the {@spell silent image} spell once. Starting at 5th level, you gain the ability to cast the {@spell moonbeam} spell once. You must finish a long rest or spend a spell slot of the appropriate level to cast these spells again. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells."
 							]
 						}
 					],
