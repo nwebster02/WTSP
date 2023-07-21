@@ -974,7 +974,7 @@
 							"type": "entries",
 							"name": "Deep Gnome Magic",
 							"entries": [
-								"You can cast the {@spell invisibility spell) once. You must finish a long rest or spend a spell slot of the appropriate level to cast this spell again. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell."
+								"You can cast the {@spell invisibility spell} once. You must finish a long rest or spend a spell slot of the appropriate level to cast this spell again. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell."
 							]
 						}
 					],
@@ -1227,16 +1227,16 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Adaptable",
+					"name": "Darkvision",
 					"entries": [
-						"You have proficiency in two skills of your choice."
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Darkvision",
+					"name": "Adaptable",
 					"entries": [
-						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+						"You have proficiency in two skills of your choice."
 					]
 				},
 				{
@@ -1306,16 +1306,16 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Adaptable",
+					"name": "Darkvision",
 					"entries": [
-						"You have proficiency in two skills of your choice."
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Darkvision",
+					"name": "Adaptable",
 					"entries": [
-						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+						"You have proficiency in two skills of your choice."
 					]
 				},
 				{
@@ -1495,16 +1495,16 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Crafty",
+					"name": "Darkvision",
 					"entries": [
-						"You have proficiency in one of the following skills of your choice: {@skill Arcana}, {@skill Investigation}, {@skill Medicine}, {@skill Sleight of Hand}, or {@skill Survival}."
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Darkvision",
+					"name": "Crafty",
 					"entries": [
-						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+						"You have proficiency in one of the following skills of your choice: {@skill Arcana}, {@skill Investigation}, {@skill Medicine}, {@skill Sleight of Hand}, or {@skill Survival}."
 					]
 				},
 				{
