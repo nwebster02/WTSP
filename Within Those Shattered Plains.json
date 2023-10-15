@@ -1837,6 +1837,129 @@
 				"H"
 			],
 			"range": "150/600"
+		},
+		{
+			"name": "Handcannon of the Nine",
+			"source": "WithinThoseShatteredPlains",
+			"rarity": "artifact",
+			"type": "R",
+			"weaponCategory": "martial",
+			"dmg1": "2d6",
+			"dmgType": "P",
+			"property": [
+				"2H"
+			],
+			"curse": true,
+			"range": "60/240",
+			"bonusWeapon": 3,
+			"reqAttune": true,
+			"charges": 3,
+			"recharge": "dawn",
+			"entries": [
+				"The Handcannon of the Nine is a magic, sentient firearm that grants a +3 bonus to attack and damage rolls with it.",
+				"The Handcannon has 6 charges, and it regains {@dice 1d6} expended charges daily at dawn.",
+				{
+					"type": "list",
+					"items": [
+						"You can expend 1 charge when making an Intelligence ability check to roll with proficiency.",
+						"You can expend 1 charge as a bonus action to gain {@optfeature devil's sight} out to a range of 120 feet for 1 hour.",
+						"You can expend 2 charges as an action to unleash the howls of lost souls. Each creature in a 15-foot cone must make a Wisdom saving throw (DC 8 + your proficiency bonus + your Intelligence modifier). On a failed save, a creature takes 3d6 psychic damage and is {@condition frightened} for 1 minute. On a successful save, the creature takes half as much damage and isn't {@condition frightened}. The {@condition frightened} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. You can increase the damage by {@dice 1d6} for each additional charge you expend. Fiendish creatures are unaffected by this ability."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dark One's Critical",
+					"entries": [
+						"On a critical hit you deal an additional {@dice 2d10} fire damage, but take {@dice 1d6} necrotic damage, which can't be reduced in any way, and your hit point maximum is reduced by an amount equal to the damage taken. You die if this effect reduces your hit point maximum to 0. This reduction is permanent and can only be removed by {@spell greater restoration}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Self-Loading",
+					"entries": [
+						"The weapon produces its own magical ammunition, automatically creating one when you make a ranged attack with it. The ammunition created by the weapon vanishes the instant after it hits or misses a target."
+					]
+				}
+			]
+		},
+		{
+			"name": "War Horn of Yrsa",
+			"source": "WithinThoseShatteredPlains",
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"This war horn once belonged to the legendary storm giant shield-maiden Yrsa, who exiled the frost giants of the Shattered Plains to the island of Frosthold. The horn is engraved with the Giant rune for bravery.",
+				"You can blow the horn as a bonus action. When you do, if you have the frightened condition, you immediately end that condition on yourself. You also have advantage on saving throws against being frightened until the start of your next turn.",
+				{
+					"type": "entries",
+					"name": "Invoking the Rune",
+					"entries": [
+						"When you blow the horn, you can also invoke the rune, imbuing the horn's deep call with protective magic that affects creatures of your choice within 30 feet of yourself. You and all affected creatures gain a +1 bonus to AC until the start of your next turn.",
+						"Once the rune has been invoked, it can't be invoked again until the next dawn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Comet Shard Dagger",
+			"source": "WithinThoseShatteredPlains",
+			"rarity": "uncommon",
+			"type": "M",
+			"weaponCategory": "simple",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"range": "20/60",
+			"bonusWeapon": 1,
+			"property": [
+				"L",
+				"F",
+				"T"
+			],
+			"reqAttune": "by a circle of stars druid",
+			"entries": [
+				"This dagger was chipped from the shard of a comet that fell through to the material plane. Druidic runes circling the base of the hilt signal the coming of a new age. You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+				"You can cast the {@spell divination} spell from this weapon as an action, requiring no material components. If you cast the spell in this way during a Woe Cosmic Omen, the dagger will shatter, rendering it unusable. Once the spell has been cast using the Comet Shard Dagger, it cannot be cast from the dagger until a tenday has passed."
+			]
+		},
+		{
+			"name": "Vrynn's Ring of Spell Storing",
+			"source": "WithinThoseShatteredPlains",
+			"rarity": "rare",
+			"type": "RG",
+			"reqAttune": true,
+			"entries": [
+				"This ring was stashed deep within the Magister Vrynn's Voluminous Vault of Vibrant Valuables. This ring stores spells cast into it, holding them until the attuned wearer uses them. The ring can store up to 5 levels worth of spells at a time. When found, it contains the spells {@spell fly} and two casts of {@spell feather fall}.",
+				"Any creature can cast a spell of 1st through 5th level into the ring by touching the ring as the spell is cast. The spell has no effect, other than to be stored in the ring. If the ring can't hold the spell, the spell is expended without effect. The level of the slot used to cast the spell determines how much space it uses.",
+				"While wearing this ring, you can cast any spell stored in it. The spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if you cast the spell. The spell cast from the ring is no longer stored in it, freeing up space."
+			]
+		},
+		{
+			"name": "Bottle of the Starless Sea",
+			"source": "WithinThoseShatteredPlains",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This bottle contains a miniature replica of the infamous dwarven captain Thrain Keelwright's ship, which sailed the Starless Sea of the underdark and survived many assaults against drow pirates.",
+				"You can use an action to remove the stopper and speak one of three command words, whereupon an amount of fresh water pours out of the flask. The water stops pouring out at the start of your next turn. Choose from the following options:",
+				{
+					"type": "list",
+					"items": [
+						"\"Stream\" produces 1 gallon of water.",
+						"\"Fountain\" produces 5 gallons of water.",
+						"\"Geyser\" produces 30 gallons of water that gushes forth in a geyser 30 feet long and 1 foot wide. As a bonus action while holding the bottle, you can aim the geyser at a creature you can see within 30 feet of you. The target must succeed on a DC 13 Strength saving throw or take {@dice 1d4} bludgeoning damage and fall {@condition prone}. Instead of a creature, you can target an object that isn't being worn or carried and that weighs no more than 200 pounds. The object is either knocked over or pushed up to 15 feet away from you."
+					]
+				}
+			]
+		},
+		{
+			"name": "Wyrm's Breath",
+			"source": "WithinThoseShatteredPlains",
+			"rarity": "unknown (magic)",
+			"type": "EXP",
+			"entries": [
+				"This small sphere appears to be made out of the same material as magical firearm primer.",
+				"The sphere is incredibly voltatile. If it suffers any damage, each creature within 15 feet must make a DC 15 Dexterity saving throw, taking {@dice 10d6} force damage on a failed save, or half as much damage on a successful one."
+			]
 		}
 	],
 	"monster": [
