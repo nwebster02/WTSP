@@ -1863,6 +1863,7 @@
 					"items": [
 						"You can expend 1 charge when making an Intelligence ability check to roll with proficiency.",
 						"You can expend 1 charge as a bonus action to gain {@optfeature devil's sight} out to a range of 120 feet for 1 hour.",
+						"You can expend 1 charge when you hit with an attack roll to deal a critical hit. However, you take an additional {@dice 1d6} necrotic damage from Dark One's Critical.",
 						"You can expend 2 charges as an action to unleash the howls of lost souls. Each creature in a 15-foot cone must make a Wisdom saving throw (DC 8 + your proficiency bonus + your Intelligence modifier). On a failed save, a creature takes 3d6 psychic damage and is {@condition frightened} for 1 minute. On a successful save, the creature takes half as much damage and isn't {@condition frightened}. The {@condition frightened} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. You can increase the damage by {@dice 1d6} for each additional charge you expend. Fiendish creatures are unaffected by this ability."
 					]
 				},
@@ -1959,6 +1960,27 @@
 			"entries": [
 				"This small sphere appears to be made out of the same material as magical firearm primer.",
 				"The sphere is incredibly voltatile. If it suffers any damage, each creature within 15 feet must make a DC 15 Dexterity saving throw, taking {@dice 10d6} force damage on a failed save, or half as much damage on a successful one."
+			]
+		},
+		{
+			"name": "Staff of the Star Seer",
+			"source": "WithinThoseShatteredPlains",
+			"rarity": "rare",
+			"type": "M",
+			"weaponCategory": "simple",
+			"dmg1": "1d6",
+			"dmg2": "1d8",
+			"dmgType": "B",
+			"bonusSpellAttack": "+2",
+			"sfcType": "druid",
+			"reqAttune": "by a druid",
+			"property": [
+				"V"
+			],
+			"entries": [
+				"This staff has been wielded by generations of druidic star seers from the Shattered Plains. It was made from the wood of the highest pine tree atop Elkheart Mountain and imbued with magic when a river of light descended from the heavens on the winter solstice.",
+				"While you are holding this staff, you can use it as a spellcasting focus for your druid spells, and you gain a +2 bonus to spell attack rolls and to the saving throw DCs of your druid spells.",
+				"While you are holding this staff, your spells and abilities ignore resistance to radiant damage. In addition, when you roll radiant damage, you can treat any 1 on a damage die as a 2."
 			]
 		}
 	],
